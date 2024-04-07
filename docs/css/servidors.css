@@ -50,7 +50,7 @@ main {
     justify-content: space-around;
     align-items: flex-start;
     padding: 20px;
-    background-image: url('/docs/images/fondo.jpg');
+    background-image: url('../images/fondo.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
@@ -89,4 +89,11 @@ footer {
     padding-top: 20px;
     justify-content: center;
     align-items: center;
+}
+
+.btn-inicio{
+    padding: 10px auto;
+    padding-right: 5px;
+    text-align: center;
+
 }

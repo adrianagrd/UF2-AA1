@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: #523479;
+    color: #fff;
+    padding: 20px 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+nav {
+    background-color: #c9a7f4;
+    padding: 10px 0;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 10px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    background-color: #d9c4f5;
+}
+
+a:hover {
+    background-color: #a27ad5;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    background-image: url('/docs/images/fondo.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.card {
+    flex: 0 1 calc(30% - 20px);
+    margin: 10px;
+    padding: 20px;
+    background: rgba(248, 248, 233, 0.9);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+p {
+    color: #333;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    text-align: center;
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+}

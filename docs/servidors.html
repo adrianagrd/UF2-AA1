@@ -1,26 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Informació servidors d'aplicacions</title>
-</head>
-<body>
-    <h1>Principals servidors d'aplicacions</h1>
-    <p>A l'explicació hem vist diversos exemples de servidors d'aplicacions per diferents llenguatges i entorns.</p>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Servidors d'aplicacions web</title>
+        <link rel="stylesheet" href="css/servidors.css" />
+    </head>
+    <body>
+        <header>
+            <h2>Servidors d'aplicacions web</h2>
+        </header>
 
-    <p>Cal que elaboreu una pàgina web amb un recull dels principals servidors aplicacions, indicant:</p>
-    <ul>
-        <li>Llenguatges de programació que es poden usar.</li>
-        <li>Característiques destacades que creieu important indicar d'aquell servidor.</li>
-        <li>Casos: empreses o serveis importants que l'utilitzin.</li>
-    </ul>
-    <p>És obligatori que almenys hi apareguin representats casos pels següents llenguatges de programació: Java, C#, JS, Go, Ruby i Python.
-        
-        La pàgina web ha d'incloure un índex o menú de navegació i a la pàgina principal el nom dels autors.
-        
-        S'ha d'incloure un índex per navegar pels diferents casos i un apartat final amb les referències.</p>
-        
-        
-</body>
+        <nav>
+            <ul>
+                <li><a class="button" href="#Java">Java</a></li>
+                <li><a class="button" href="#CSharp">C#</a></li>
+                <li><a class="button" href="#JavaScript">JavaScript</a></li>
+                <li><a class="button" href="#Go">Go</a></li>
+                <li><a class="button" href="#Ruby">Ruby</a></li>
+                <li><a class="button" href="#Python">Python</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section id="java" class="card">
+                <h2>Java</h2>
+                <p>Llenguatge de programació utilitzat: Java</p>
+                <p><b>Característiques destacades:</b></p>
+                <ul>
+                    <li>Alta performance i escalabilitat</li>
+                    <li>Gran comunitat de desenvolupadors</li>
+                    <li>
+                        Ampliament utilitzat en empreses com Google, Amazon, i
+                        més
+                    </li>
+                </ul>
+            </section>
+
+            <section id="csharp" class="card">
+                <h2>C#</h2>
+                <p>Llenguatge de programació utilitzat: C#</p>
+                <p><b>Característiques destacades:</b></p>
+                <ul>
+                    <li>Desenvolupat per Microsoft</li>
+                    <li>Utilitzat en aplicacions Windows i .NET</li>
+                    <li>Gran suport per part de Microsoft</li>
+                </ul>
+            </section>
+
+            <section id="js" class="card">
+                <h2>JavaScript</h2>
+                <p>Llenguatge de programació utilitzat: JavaScript</p>
+                <p><b>Característiques destacades:</b></p>
+                <ul>
+                    <li>Ampliament utilitzat en desenvolupament web</li>
+                    <li>Execució en el navegador del client</li>
+                    <li>
+                        Gran quantitat de llibreries i frameworks disponibles
+                    </li>
+                </ul>
+            </section>
+
+            <section id="go" class="card">
+                <h2>Go</h2>
+                <p>Llenguatge de programació utilitzat: Go</p>
+                <p><b>Característiques destacades:</b></p>
+                <ul>
+                    <li>Desenvolupat per Google</li>
+                    <li>Alta performance i eficiència</li>
+                    <li>Facilitat de programació</li>
+                </ul>
+            </section>
+
+            <section id="ruby" class="card">
+                <h2>Ruby</h2>
+                <p>Llenguatge de programació utilitzat: Ruby</p>
+                <p><b>Característiques destacades:</b></p>
+                <ul>
+                    <li>Utilitzat en el framework Ruby on Rails</li>
+                    <li>Sintaxi elegant i fàcil d'aprendre</li>
+                    <li>Gran comunitat de desenvolupadors</li>
+                </ul>
+            </section>
+
+            <section id="python" class="card">
+                <h2>Python</h2>
+                <p>Llenguatge de programació utilitzat: Python</p>
+                <p><b>Característiques destacades:</b></p>
+                <ul>
+                    <li>
+                        Ampliament utilitzat en ciència de dades i
+                        intel·ligència artificial
+                    </li>
+                    <li>Sintaxi clara i llegible</li>
+                    <li>Gran quantitat de llibreries disponibles</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <h2><i>Referències:</i></h2>
+        </footer>
+    </body>
 </html>

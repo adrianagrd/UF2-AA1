@@ -40,6 +40,7 @@ main {
   
   .button:hover {
     transform: translateY(-3px);
+
   }
   
   .icon {
@@ -57,26 +58,64 @@ main {
     align-items: center;
 }
 
-.button-main {
-    display: inline-block;
-    background-color: #fff;
-    color: rgb(0, 0, 0);
-    padding: 10px 20px;
-    margin-top: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
-}
 
-.button-main:hover {
-    background-color: #f2f2f2;
-    color: rgba(245, 73, 144);
-    
-    
-}
 
 p{
     color: rgb(117, 117, 117);
     font-weight: bold;
+}
+/* cards web.html */
+.card {
+    box-sizing: border-box;
+    width: 190px;
+    height: 40px;
+    background: rgba(217, 217, 217, 0.58);
+    border: 1px solid white;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    backdrop-filter: blur(6px);
+    border-radius: 17px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    font-weight: bolder;
+    color: black;
+    
+  }
+  
+  .card:hover {
+    border: 1px solid black;
+    transform: scale(1.05);
+    color: rgb(172, 27, 136);
+    
+  }
+  
+  .card:active {
+    transform: scale(0.95) rotateZ(1.7deg);
+  }
+  a{
+    text-decoration: none;
+  }
+  /* dropdown menu */
+  .dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%; /* Asegura que el menú desplegable comienza justo debajo del elemento .dropdown */
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
 }
